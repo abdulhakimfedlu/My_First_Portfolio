@@ -1,3 +1,4 @@
+
 /* Apply display: flex to body and main containers */
 body {
     display: flex;
@@ -9,14 +10,18 @@ body {
     flex-direction: row;
     flex: auto;
   }
-  
+
+
   /* Set the flex properties for article and aside */
   article {
     flex: 2;
     overflow-y: auto;
   }
   
-  aside {
+.asideeee{
+    justify-content: center;
+}  
+aside {
     flex: 1;
     overflow-y: auto;
 }
